@@ -1,6 +1,6 @@
 header{
    
-    background-image: url(/Snappy/assets/images/abstract-1780171_1280.png);
+    background-image: url(/../assets/images/abstract-1780171_1280.png);
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -36,7 +36,7 @@ header{
 }
 
 footer{
-    background-image: url(/Snappy/assets/images/abstract-1779607_1280.png);
+    background-image: url(/../assets/images/abstract-1779607_1280.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
