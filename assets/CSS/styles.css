@@ -16,13 +16,37 @@ header{
     align-items: center;
     overflow: hidden; */
 }
+.menu_cust{
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255) !important;
+}
+.menu_cust:hover{
+    transform: scale(1.1);
+    border: 1px solid black;
+    border-radius: 10px;
+    /* transition: 10ms; */
+    color: rgb(255, 251, 0) !important;
+    
+}
 
 .circular-image {
     width: 100%;
     height: auto;
     object-fit: cover;
 }
+.circular-image:hover {
+    animation: rotateImage 1s infinite;
+}
 
+@keyframes rotateImage {
+    0% {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+
+    100% {
+        transform: rotate3d(0, 0, 1, 360deg);
+    }
+}
 
 .card{
     background-color: #f6f6f6;
@@ -34,6 +58,7 @@ header{
     width: 50%;
     height: auto;
 }
+
 
 footer{
     background-image: url(/../assets/images/abstract-1779607_1280.png);
