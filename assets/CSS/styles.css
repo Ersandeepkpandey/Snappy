@@ -23,7 +23,7 @@ header{
 }
 .menu_cust:hover{
     transform: scale(1.1);
-    border-radius: 10px;
+    
     color: rgb(255, 251, 0) !important;
     
 }
