@@ -1,4 +1,2 @@
-
-
-Bootstrap 4.6 
+Bootstrap 4.6
 
